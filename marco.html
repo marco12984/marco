@@ -4,153 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Tradiciones Mexicanas - Día de Muertos</title>
-    <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@500&family=Quicksand&display=swap" rel="stylesheet">
-    <style>
-        body {
-            font-family: 'Quicksand', sans-serif;
-            background-color: #000;
-            color: #f5f5f5;
-            margin: 0;
-            padding: 0;
-            line-height: 1.6;
-        }
-
-        header {
-            background: linear-gradient(90deg, #d62828, #f77f00, #fcbf49);
-            color: #fff;
-            text-align: center;
-            padding: 30px 15px;
-            box-shadow: 0 3px 6px rgba(255,255,255,0.2);
-        }
-
-        h1 {
-            font-family: 'Cinzel', serif;
-            font-size: 2.8em;
-            margin: 0;
-        }
-
-        h2 {
-            font-weight: 400;
-            margin-top: 10px;
-        }
-
-        section {
-            max-width: 900px;
-            margin: 30px auto;
-            padding: 25px;
-            background: rgba(30, 30, 30, 0.95);
-            border-radius: 12px;
-            box-shadow: 0 3px 15px rgba(255, 170, 0, 0.2);
-            border: 1px solid rgba(255, 187, 51, 0.3);
-        }
-
-        h3 {
-            color: #fcbf49;
-            font-family: 'Cinzel', serif;
-            text-align: center;
-            font-size: 1.6em;
-        }
-
-        p {
-            text-align: justify;
-            font-size: 1.05em;
-            color: #e6e6e6;
-        }
-
-        strong {
-            color: #ffd166;
-        }
-
-        em {
-            color: #ffb347;
-        }
-
-        img {
-            display: block;
-            margin: 20px auto;
-            border-radius: 10px;
-            width: 100%;
-            max-width: 600px;
-            box-shadow: 0 0 15px rgba(255, 136, 0, 0.4);
-            transition: transform 0.3s, box-shadow 0.3s;
-        }
-
-        img:hover {
-            transform: scale(1.03);
-            box-shadow: 0 0 25px rgba(255, 187, 51, 0.6);
-        }
-
-        footer {
-            background: linear-gradient(90deg, #fcbf49, #f77f00, #d62828);
-            color: #fff;
-            text-align: center;
-            padding: 15px 10px;
-            margin-top: 40px;
-            font-size: 0.95em;
-            box-shadow: 0 -3px 10px rgba(255,255,255,0.1);
-        }
-
-        #formulario {
-            background: rgba(30, 30, 30, 0.9);
-            border-radius: 10px;
-            padding: 25px;
-            box-shadow: 0 3px 15px rgba(255, 170, 0, 0.2);
-            margin-top: 40px;
-        }
-
-        #formulario h3 {
-            color: #fcbf49;
-            font-family: 'Cinzel', serif;
-            text-align: center;
-            font-size: 1.6em;
-        }
-
-        form {
-            display: flex;
-            flex-direction: column;
-            align-items: center;
-        }
-
-        label {
-            margin-bottom: 10px;
-            font-size: 1.1em;
-            color: #f5f5f5;
-        }
-
-        input, textarea, select {
-            width: 100%;
-            max-width: 400px;
-            padding: 10px;
-            margin-bottom: 20px;
-            border: 2px solid #fcbf49;
-            border-radius: 6px;
-            background: #333;
-            color: #f5f5f5;
-            font-size: 1em;
-        }
-
-        input[type="submit"] {
-            cursor: pointer;
-            background: #fcbf49;
-            border: none;
-            color: #000;
-            font-size: 1.2em;
-        }
-
-        input[type="submit"]:hover {
-            background: #ffb347;
-        }
-
-        @media (max-width: 600px) {
-            header h1 {
-                font-size: 2em;
-            }
-            section {
-                margin: 15px;
-                padding: 15px;
-            }
-        }
-    </style>
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
     <header>
@@ -193,10 +47,10 @@
         <img src="https://fuentevillagallery.com/cdn/shop/files/Catrina_azul.jpg?v=1738730441" 
              alt="La Catrina">
     </section>
-
+    
     <section id="formulario">
-        <h3>📝 Encuesta de Satisfacción</h3>
-        <form action="https://formspree.io/f/xblqlqdl" method="POST">
+        <h3 Encuesta de Satisfacción</h3>
+        <form action="https://formspree.io/f/your_form_id" method="POST">
             <label for="nombre">Tu Nombre:</label>
             <input type="text" id="nombre" name="nombre" required>
 
