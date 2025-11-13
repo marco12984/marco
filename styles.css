@@ -1,0 +1,151 @@
+body {
+    font-family: 'Quicksand', sans-serif;
+    background-color: #000; /* Fondo negro */
+    color: #f5f5f5; /* Texto claro */
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+}
+
+header {
+    background: linear-gradient(90deg, #d62828, #f77f00, #fcbf49);
+    color: #fff;
+    text-align: center;
+    padding: 30px 15px;
+    box-shadow: 0 3px 6px rgba(255,255,255,0.2);
+}
+
+h1 {
+    font-family: 'Cinzel', serif;
+    font-size: 2.8em;
+    margin: 0;
+}
+
+h2 {
+    font-weight: 400;
+    margin-top: 10px;
+}
+
+section {
+    max-width: 900px;
+    margin: 30px auto;
+    padding: 25px;
+    background: rgba(30, 30, 30, 0.95); /* Fondo gris oscuro translúcido */
+    border-radius: 12px;
+    box-shadow: 0 3px 15px rgba(255, 170, 0, 0.2);
+    border: 1px solid rgba(255, 187, 51, 0.3);
+}
+
+h3 {
+    color: #fcbf49;
+    font-family: 'Cinzel', serif;
+    text-align: center;
+    font-size: 1.6em;
+}
+
+p {
+    text-align: justify;
+    font-size: 1.05em;
+    color: #e6e6e6;
+}
+
+strong {
+    color: #ffd166;
+}
+
+em {
+    color: #ffb347;
+}
+
+img {
+    display: block;
+    margin: 20px auto;
+    border-radius: 10px;
+    width: 100%;
+    max-width: 600px;
+    box-shadow: 0 0 15px rgba(255, 136, 0, 0.4);
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+img:hover {
+    transform: scale(1.03);
+    box-shadow: 0 0 25px rgba(255, 187, 51, 0.6);
+}
+
+footer {
+    background: linear-gradient(90deg, #fcbf49, #f77f00, #d62828);
+    color: #fff;
+    text-align: center;
+    padding: 15px 10px;
+    margin-top: 40px;
+    font-size: 0.95em;
+    box-shadow: 0 -3px 10px rgba(255,255,255,0.1);
+}
+
+#formulario {
+    background: rgba(30, 30, 30, 0.8);
+    padding: 20px;
+    border-radius: 12px;
+    box-shadow: 0 3px 15px rgba(255, 170, 0, 0.2);
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+label {
+    font-weight: bold;
+}
+
+input[type="text"],
+input[type="email"],
+select,
+textarea {
+    padding: 10px;
+    background-color: #333;
+    border: 2px solid #fcbf49;
+    border-radius: 8px;
+    color: #fff;
+    font-size: 1em;
+    width: 100%;
+    max-width: 400px;
+    margin-bottom: 10px;
+}
+
+input[type="submit"] {
+    background-color: #fcbf49;
+    color: #333;
+    font-weight: bold;
+    cursor: pointer;
+    padding: 15px;
+    border-radius: 8px;
+    border: none;
+    font-size: 1.1em;
+    transition: background-color 0.3s;
+}
+
+input[type="submit"]:hover {
+    background-color: #ffb347;
+}
+
+textarea {
+    resize: vertical;
+    min-height: 100px;
+}
+
+/* Responsive */
+@media (max-width: 600px) {
+    h3 {
+        font-size: 1.4em;
+    }
+
+    section {
+        padding: 15px;
+    }
+
+    input[type="submit"] {
+        font-size: 1em;
+    }
+}
